@@ -1,0 +1,15 @@
+{
+  "name": "electron-touch-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Hund <pahund@ebay.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.2"
+  }
+}
