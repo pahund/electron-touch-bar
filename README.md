@@ -2,7 +2,9 @@
 
 A little demo Electron app showing how to program the new MacBook Pro's touch bar.
 
-Code is directly taken from these two docs from the Electron team:
+![touch bar demo in action](touch-bar-demo.gif)
+
+Code is directly taken from these two docs from the Electron team, **all credit goes to them!**
 
 * [quick-start.md](https://github.com/electron/electron/blob/master/docs/tutorial/quick-start.md)
 * [touch-bar.md](https://github.com/electron/electron/blob/master/docs/api/touch-bar.md)
