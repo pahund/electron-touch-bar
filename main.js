@@ -1,22 +1,5 @@
 const electron = require('electron');
 
-function printElectron(curr, indent = 0) {
-    if (!curr) {
-        return;
-    }
-    Object.keys(curr).forEach(key => {
-        if (key.match(/chrome/gi)) {
-            console.log('!!!!!!!!!!!!!!1');
-        }
-        console.log(`${' '.repeat(indent)}${key}`);
-        if (typeof curr[key] === 'object') {
-            printElectron(curr[key], indent + 4);
-        }
-    });
-}
-
-//printElectron(electron);
-
 const { app, BrowserWindow, TouchBar } = require('electron');
 const { TouchBarLabel, TouchBarButton, TouchBarSpacer } = TouchBar;
 const path = require('path');
